@@ -1,0 +1,90 @@
+
+
+:root {
+  --primary-color: #4361ee;
+  --secondary-color: #3a0ca3;
+  --accent-color: #f72585;
+
+  --bg-color: #ffffff;
+  --text-color: #222;
+
+  --card-bg: #f4f4f4;
+
+  --transition: 0.3s ease;
+
+  --spacing: 1rem;
+}
+
+/* DARK THEME */
+
+.dark-theme {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --card-bg: #1f1f1f;
+}
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* SECTION */
+
+section {
+  padding: 5rem 0;
+}
+
+/* BUTTON */
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+/* TITLES */
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* IMAGES */
+
+img {
+  width: 100%;
+  display: block;
+}

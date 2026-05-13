@@ -1,0 +1,56 @@
+/* HERO ANIMATION */
+
+.hero__content {
+  animation: fadeInLeft 1s ease;
+}
+
+.hero__image {
+  animation: fadeInRight 1s ease;
+}
+
+/* PROJECT CARD */
+
+.project-card {
+  animation: fadeInUp 0.8s ease;
+}
+
+/* KEYFRAMES */
+
+@keyframes fadeInLeft {
+
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
